@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Great+Vibes&family=Leckerli+One&family=Poppins:ital,wght@0,400;1,200;1,400;1,600;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+                                            /* header start */
+
+header{
+    display: flex;
+    justify-content:space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: #418aa5;
+    height: auto;
+   position: fixed;
+   width: 100%;
+   font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+    font-size: 25px;
+   color: whitesmoke;
+   padding: 15px;
+}
+.logo:hover{
+    background-color: #1f576c;
+    /* color: #5fccf4; */
+    transition: .5s;
+}
+
+.menu{
+    
+    /* flex-wrap:wrap; */
+    align-self: center;
+    /* display:block;*/
+} 
+
+.menu a{
+    padding:20px 25px;
+    color:white;
+    font-size: 20px;
+    transition: .5s;
+}
+.menu a:hover{
+    background-color: #1f576c;
+}
+                                             /* header end */ 
+
+                                             /* Home section start */
+ 
+.home{
+    background-image: url(./media/bg_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+   padding-top: 80px;
+}
+
+.contain{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    justify-content: center;
+    height: 70vh;
+    color:white;
+    font-family: 'Charm', cursive;
+    
+}
+.contain h3{
+    font-size: 60px;
+}
+.contain h2{
+    font-size: 85px;
+    
+}
+.contain h4{
+    font-size: 45px;
+     
+}
+.contain button{
+   border: none;
+   padding: 10px 25px;
+   border-radius: 25px;
+   font-size: 20px;
+   font-family: 'Poppins', sans-serif;
+   font-weight: bold;
+   background-color: #396184;
+   transition: 0.5s;
+}
+.contain button:hover{
+    background-color: #fff;
+   
+}
+   .contain button a{
+   color: #fff;
+   padding: 10px 20px;
+   }
+.contain button a:hover{
+    color: #396184 
+}
+                                             /* Home section ends */
+
+                                             /* prevention section starts */
+.prevention{
+    
+    text-align: center;
+    background-color:rgb(228, 224, 224);
+    padding-top: 70px;
+    font-family: 'Poppins', sans-serif;
+    color: #133350;
+}    
+.prevention h3{
+    font-size: 45px;
+    color: #2b4d6b;
+}    
+
+.prvnt_container{
+   display:grid;
+   grid-template-columns: repeat(auto-fill, minmax(350px,1fr));
+   grid-template-rows:1fr 1fr;
+   grid-auto-rows: 1fr;
+   grid-gap: 20px;
+   row-gap: 30px;
+   width: 80%;
+   margin: auto;
+}
+.prvnt_container .prvnt_box{
+    padding: 15px;
+    transition: 0.5s;
+}
+.prvnt_container .prvnt_box:hover{
+    background-color: #fff;
+}
+.prvnt_container .prvnt_box img{
+    height: 150px;
+    width: auto;
+}
+.prvnt_container .prvnt_box h4{
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.prvnt_container .prvnt_box p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    padding: 20px 0;
+}
+.prvnt_container .prvnt_box a{
+    font-size: 18px;
+    color: #06549d;
+    font-weight: bold;
+    margin-top: 0;
+}
+.prvnt_container .prvnt_box a:hover{
+    color: #0979f9;
+}
+                                             /* prevention section ends */
+
+                                             /* symptoms section start */
+.Symptoms{
+    /* height: 100vh; */
+    text-align: center;
+    background-color:rgb(228, 224, 224);
+    padding-top: 70px;
+    font-family: 'Poppins', sans-serif;
+    color: #133350; 
+   padding-bottom: 20px;
+}
+.Symptoms h2{
+    font-size: 45px;
+    color: #2b4d6b;
+}
+
+.all_symptoms_box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: 1fr 1fr;
+    grid-auto-rows: 1fr;
+    grid-gap: auto;
+    width: 80%;
+    margin:auto;
+    margin-top: 40px;
+    grid-gap: 35px;
+   
+}
+.all_symptoms_box .smptms_box{
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    background-color:#fff;
+    justify-self: center;
+    transition: 0.6s;
+    
+}
+.all_symptoms_box .smptms_box:hover{
+    padding: 20px;
+    margin: -10px;
+}
+.all_symptoms_box .smptms_box img{
+    height: 200px;
+    width:auto;
+    padding: 10px;
+    padding-top: 35px;
+   
+}
+.all_symptoms_box .smptms_box p{
+    font-family: 'Charm', cursive;
+    font-size: 20PX;
+    font-weight: bold;
+    color: #000000;
+}
+
+                                             /* symptoms section end */
+
+
+                                             /* precaution section start */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                             
+                                             /* precaution section ends */
+
+
+                                             /* footer section start*/
+.footer{
+    font-family: 'Poppins', sans-serif;
+    
+}
+.upper_footer{
+    background-color: #5a94a9;
+    /* align-items: center;  */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center; 
+    padding: 20px 10px;
+    
+}
+.quick_links h3{
+    font-size: 25px;
+}
+.quick_links a{
+    font-size: 20px;
+   padding: 10px 20px;
+   padding-left: 0;
+    color: #000000;
+    transition: 0.6s;
+}
+.quick_links a:hover{
+    color: #fff;
+}
+.fotr_icons i{
+    font-size: 30px;
+    padding: 10px 20px;
+}
+.lower_footer{
+    padding: 15px 0;
+    background-color: #3a7285;
+    text-align: center;
+    width: 100%;
+}
+.lower_footer h3{
+    color: white;
+}
+.lower_footer a{
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+.lower_footer a:hover{
+    color: rgb(80, 18, 18);
+}
+.lower_footer h4{
+    color: white;
+}
+                                        
+                                             /* footer section end */
+
+
+
+
+                                    /* media queary part */
+
+@media (max-width:1100px){
+    .contain h3{
+        font-size: 48px;
+    }
+    .contain h2{
+        font-size: 60px;  
+    }
+    .contain h4{
+        font-size: 35px;  
+    }
+    .contain button{
+       border: none;
+       padding: 8px 15px;
+       border-radius: 15px;
+       font-size: 15px;
+       font-family: 'Poppins', sans-serif;
+       font-weight: bold;
+       background-color: #396184;
+       transition: 0.5s;
+    }
+    .contain button a{
+       color: #fff;
+       padding: 5px 15px
+    }
+    /* footer start */
+        
+        
+    
+    
+    .quick_links a{
+        font-size: 14px;
+       padding: 10px 5px;
+       padding-left: 0;
+        color: #000000;
+        transition: 0.6s;
+    }
+    .fotr_icons i{
+        font-size: 20px;
+        padding: 10px 10px;
+    }
+    /* footer end */
+}
+    
+
+       @media (max-width:868px){
+        /* header */
+        .logo{
+            font-size: 16px;
+           color: whitesmoke;
+           padding: 10px;
+        }
+        .menu a{
+            padding:12px 14px;
+            color:white;
+            font-size: 12px;
+            transition: .5s;
+        }
+
+           /* home */
+        .contain h3{
+            font-size: 35px;
+        }
+        .contain h2{
+            font-size: 40px;     
+        }
+        .contain h4{
+            font-size: 28px;   
+        }
+       
+     }
+     @media (max-width:700px){
+        .prevention h3{
+            font-size: 25px;
+        }
+         .quick_links{
+            display: grid;
+            grid-template-columns: 1fr;
+         }
+         .fotr_icons{
+            display: grid;
+            grid-template-columns: 1fr;
+         }
+         .Symptoms h2{
+            font-size: 25px;
+            color: #2b4d6b;
+         }
+    }  
+
+
+     @media (max-width:532px){
+        /* header */
+        .logo{
+            font-size: 12px;
+           color: whitesmoke;
+           padding: 10px;
+        }
+        .menu a{
+            padding:10px 8px;
+            color:white;
+            font-size: 12px;
+            transition: .5s;
+          
+        }
+        .menu a:hover{
+            background-color: #1f576c;
+        }
+           /* home */
+        .contain h3{
+            font-size: 24px;
+        }
+        .contain h2{
+            font-size: 25px;     
+        }
+        .contain h4{
+            font-size: 20px;   
+        }
+       /* prevent start */
+       .prevention h3{
+        font-size: 20px;
+    }
+       .prvnt_container{
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: 1fr;
+        grid-gap: 20px;
+        width: 90%;
+        margin: auto;
+     }
+       .prvnt_container .prvnt_box img{
+        height: 100px;
+        width: auto;
+    }
+    .prvnt_container .prvnt_box h4{
+        font-size: 15px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+       /* prevent end */
+       .Symptoms h2{
+        font-size: 20px;
+        color: #2b4d6b;
+    }
+      
+
+       .all_symptoms_box .smptms_box{
+        height: 170px;
+        width: 170px;
+     }
+       .all_symptoms_box .smptms_box img{
+        height: 100px;
+    }
+
+     }
