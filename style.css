@@ -30,16 +30,12 @@ header{
 }
 .logo:hover{
     background-color: #1f576c;
-    /* color: #5fccf4; */
     transition: .5s;
 }
 
 .menu{
-    
-    /* flex-wrap:wrap; */
     align-self: center;
-    /* display:block;*/
-} 
+}
 
 .menu a{
     padding:20px 25px;
@@ -48,7 +44,7 @@ header{
     transition: .5s;
 }
 .menu a:hover{
-    background-color: #1f576c;
+    color: #000000;
 }
                                              /* header end */ 
 
@@ -109,7 +105,6 @@ header{
 
                                              /* prevention section starts */
 .prevention{
-    
     text-align: center;
     background-color:rgb(228, 224, 224);
     padding-top: 70px;
@@ -224,22 +219,120 @@ header{
 
 
                                              /* precaution section start */
+.precaution{
+    text-align: center;
+    background-color:rgb(228, 224, 224);
+    padding-top: 70px;
+    font-family: 'Poppins', sans-serif;
+}                                            
+.precaution h1{
+    font-size: 60px;
+    color: #2b4d6b;
+}
+.precaution h3{
+    font-size: 30px;
+    font-family: 'Charm', cursive;
+    color: #2b4d6b;
+}
+.covid_preacaution{
+    max-width: 80%;
+    margin: auto;
+    background-color:rgb(228, 224, 224);
+    padding: 40px 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr;
+}
 
+.precautions_do{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+ 
+}
+.main_do{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    padding: 20px 0;
+}
+.main_do i{
+font-size: 50px;
+color: green;
+font-weight: bold;
+}
+.main_do p{
+font-size: 35px;
+color: green;
+font-weight: bold;
+}
+.do_element{
+    height: 150px;
+    width: 250px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.do_element i{
+    font-size: 40px;
+    padding: 10px;
+    color: green;
+}
+.do_element p{
+    color: #000;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 600;
+}
+.Preacautions_dont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+   
+  }
+.main_dont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    padding: 20px 0;
+}
 
+.main_dont i{
+    font-size: 35px;
+    color: red;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.main_dont p{
+    font-size: 25px;
+    color: red;
+    font-weight: bold;
+}
+.dont_element{
+     height: 150px;
+     width: 250px;
+     margin: 10px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.dont_element i{
+    font-size: 40px;
+    padding: 10px;
+    color:red;
+}
+.dont_element p{
+    color: #000;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 600;
+}
 
                                              
                                              /* precaution section ends */
@@ -248,7 +341,6 @@ header{
                                              /* footer section start*/
 .footer{
     font-family: 'Poppins', sans-serif;
-    
 }
 .upper_footer{
     background-color: #5a94a9;
@@ -275,6 +367,9 @@ header{
 .fotr_icons i{
     font-size: 30px;
     padding: 10px 20px;
+}
+.fotr_icons h3{
+    font-size: 25px;
 }
 .lower_footer{
     padding: 15px 0;
@@ -371,6 +466,11 @@ header{
         .contain h4{
             font-size: 28px;   
         }
+
+        .covid_preacaution{
+            grid-template-columns: 1fr;
+            grid-auto-rows: 1fr;
+        }
        
      }
      @media (max-width:700px){
@@ -407,17 +507,20 @@ header{
           
         }
         .menu a:hover{
-            background-color: #1f576c;
+          color: #000000;
+          background-color: none;
         }
            /* home */
         .contain h3{
-            font-size: 24px;
+            font-size: 35px;
         }
         .contain h2{
-            font-size: 25px;     
+            margin-top: 50px;
+            font-size: 55px; 
+            text-align: center;    
         }
         .contain h4{
-            font-size: 20px;   
+            font-size: 25px;   
         }
        /* prevent start */
        .prevention h3{
@@ -445,8 +548,6 @@ header{
         font-size: 20px;
         color: #2b4d6b;
     }
-      
-
        .all_symptoms_box .smptms_box{
         height: 170px;
         width: 170px;
@@ -454,5 +555,17 @@ header{
        .all_symptoms_box .smptms_box img{
         height: 100px;
     }
+    .all_symptoms_box .smptms_box p{
+        font-size: 14PX;
+    }
+    /* precaution */
+    .precaution h1{
+        font-size: 40px;
+        color: #2b4d6b;
+    }
+    .precaution h3{
+        font-size: 30px;
+        font-family: 'Charm', cursive;
+        color: #2b4d6b;
 
      }
