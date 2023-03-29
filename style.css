@@ -515,7 +515,7 @@ font-weight: bold;
             font-size: 35px;
         }
         .contain h2{
-            margin-top: 50px;
+            margin-top: 10px;
             font-size: 55px; 
             text-align: center;    
         }
@@ -569,3 +569,4 @@ font-weight: bold;
         color: #2b4d6b;
 
      }
+    }
